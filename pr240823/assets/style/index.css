@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+a::before {
+    content:'';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+}
+a:hover::before {
+    transform: scale3d(1,1,1);
+}
+a::before{
+    transform-origin: 100% 50%;
+}
+a:hover::before {
+    transform-origin: 0 50%;
+}
+.line-box {
+    width: 100%;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    .line {
+        width: 80vw;
+    }
+}
+
+.night {
+    a, p, h1{
+        color: #fff;
+    }
+    h1 {
+        border-bottom: 2px solid #fff;
+    }
+
+    .line, .menu a::before {
+        background-color: #fff;
+    }
+
+    .header .change_themes .button_change_themes {
+        background: rgb(12, 161, 236);
+        background-image: url("../images/sun.png");
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer, .header{
+        background: #000;
+    }
+    .footer .social a{
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+
+.light {
+    a, p, h1{
+        color: #000;
+    }
+
+    h1 {
+        border-bottom: 2px solid black;
+    }
+
+    .line, .menu a::before {
+        background-color: #000;
+    }
+
+    .header .change_themes .button_change_themes  {
+        background: rgb(25, 32, 36);
+        background-image: url("../images/moon.png");
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .footer, .header, h1{
+        background: #fff;
+    }
+    .footer .social a{
+        font-size: 10px;
+        font-weight: 200;
+    }
+}
+
+.header {
+    z-index: 100;
+    font-size: 17px;
+    font-weight: 900;
+
+    height: 10vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main {
+        width: 60vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        .ico {
+            display: flex;
+            transition: 0.5s;
+
+            .ico_link img {
+                width: 35px;
+                height: 35px;
+            }
+        }
+
+        .ico:hover {
+            transform: scale(1.2);
+        }
+
+        .menu {
+            display: flex;
+            gap: 30px;
+            width: 20vw;
+            /* a {
+                position: relative;
+                display: block;
+            }
+            a::before {
+                content:'';
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transition: 0.5s transform ease;
+                transform: scale3d(0,1,1);
+                transform-origin: 0 50%;
+            }
+            a:hover::before {
+                transform: scale3d(1,1,1);
+            }
+            a::before{
+                transform-origin: 100% 50%;
+            }
+            a:hover::before {
+                transform-origin: 0 50%;
+            } */
+        }
+
+        .change_themes .button_change_themes {
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            border: none;
+            outline: none;
+            transition: 0.5s;
+        }
+
+        .change_themes:hover{
+            transform: scale(1.3);
+        } 
+    }
+}
+
+
+
+.main {
+    height: 300px;
+}
+
+
+.footer {
+    height: 40vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 18px;
+
+    .box-text {
+
+        display: flex;
+        width: 50vw;
+        justify-content: space-between;
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            width: 20vw;
+    
+            .item {
+                transition: 0.5s;
+            }
+        }
+    
+        .social {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            
+
+            .s-item {
+                display: flex;
+                gap: 5px;
+    
+                img {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+
+    .menu .item:hover{
+        transform: scale(1.1);
+    }
+}
