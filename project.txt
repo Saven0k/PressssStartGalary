@@ -36,3 +36,137 @@
 
 
 3. Блог или раздел новостей (не факт что можно такое писать)
+
+
+<section class="main mainless">
+		<h1>Добро пожаловать в галерею</h1>
+		<div class="cards">
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/1.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/2.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/3.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/4.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/5.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/6.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/7.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/8.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/9.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/10.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/11.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/12.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/13.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+			<div class="card">
+				<img class="card__img" src="./assets/images/cards/14.jpg" alt="">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, eos voluptatem totam numquam expedita quasi nulla laborum in impedit nisi assumenda sed mollitia, eum sunt! Error quo qui nobis, soluta asperiores eius provident, tempore aut cum commodi optio! Voluptates perferendis quo voluptas eos! Culpa, incidunt sit. Autem, facere vel odio numquam eveniet, vero alias magni nostrum deserunt amet excepturi vitae repellat recusandae, nesciunt labore ducimus suscipit unde quam. Exercitationem assumenda non totam corrupti vitae obcaecati hic ex autem ratione aspernatur. Ut odio aut adipisci totam, quia repellat sapiente repellendus fugit minus error distinctio quo nulla esse vero maxime quasi quisquam dolorum autem aperiam commodi voluptatibus impedit, cumque accusantium at? Cum alias sapiente temporibus, accusantium deleniti saepe nemo neque nobis repudiandae.</p>
+				<img class='close' src="./assets/images/close.png" alt="">
+			</div>
+		</div>
+	</section>
+
+
+	.mainless {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        padding-top: 50px;
+        border: none;
+        padding-bottom: 30px;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        height: auto;
+        gap: 15px;
+        padding: 0 50px 150px 50px;
+
+
+        .card {
+            width: 300px;
+            flex-basis: 300px;
+            display: flex;
+            transition: 0.1s;
+
+            img {
+                width: 300px;
+            }
+
+            p {
+                /* border-top-right-radius: ; */
+                padding-top: 25px;
+                padding-left: 10px;
+                display: none;
+                font-size: 12px;
+                text-wrap: wrap;
+                width: 20vw;
+            }
+
+            .close {
+                width: 15px;
+                height: 15px;
+                display: none;
+                position: absolute;
+                right: 15px;
+                top: 15px;
+            }
+        }
+
+
+    }
+}
