@@ -4,10 +4,20 @@
     transition: 1s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
+
+    scroll-behavior: smooth;
+
 }
+
 body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     background: #000;
 }
+
+
+
+
 
 a,
 p,
@@ -71,9 +81,9 @@ a:hover::before {
 
 
 .light {
-    
+
     background: #fff;
-    
+
     a,
     p,
     h1 {
@@ -110,18 +120,22 @@ a:hover::before {
 
     .mainless {
         background: #fff;
+
+
+        .text {
+            color: #000;
+        }
     }
+
     .big__card .cardElm {
-        border: 1px solid #000;
+
         p {
             color: #000;
         }
     }
-    .big__card {
-        opacity: 0.6;
+    .aboutUs {
+        color: #000;
     }
-
-
 }
 
 .header {
@@ -183,6 +197,32 @@ a:hover::before {
         }
     }
 }
+
+.main__page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+
+    .big__text {
+        font-size: 36px;
+        max-width: 20vw;
+        min-width: 100px;
+    }
+
+    .small-text {
+        font-size: 20px;
+        text-align: center;
+        min-width: 100px;
+
+    }
+
+
+}
+
 .mainless {
     justify-content: center;
     margin-top: 50px;
@@ -193,32 +233,45 @@ a:hover::before {
     flex-wrap: wrap;
     gap: 15px;
 
+    .text {
+        width: 100%;
+        color: #fff;
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 100px;
+        font-weight: bold;
+    }
+
     .card {
         width: 300px;
         display: flex;
         flex-direction: column;
         gap: 15px;
 
-        p, h1 {
+        p,
+        h1 {
             display: none;
             color: black;
         }
+
         img {
             width: 300px;
         }
+
         .img-close {
             display: none;
         }
     }
 
 }
+
 .big__card {
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
     position: relative;
+    transition: 5s;
 
     .cardElm {
         z-index: 100;
@@ -256,6 +309,7 @@ a:hover::before {
             right: 20px;
             transition: 0.5s;
         }
+
         .img-close:hover {
             transform: scale(1.1);
         }
@@ -263,6 +317,53 @@ a:hover::before {
 
 
 }
+
+.aboutUs {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+    .abutText {
+        font-size: 50px;
+        font-weight: 900;
+        font-variant: small-caps;
+    }
+
+    .weText {
+        width: 40vw;
+
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+
+        .plus_text {
+            display: flex;
+            flex-direction: column;
+            gap: 2vw
+        }
+
+        .red_text {
+            color:red;
+            font-size: 18px;
+            font-weight: 600;
+            
+        }
+        .bold_text {
+            padding-top: 30px;
+            font-style: italic;
+        }
+    }
+}
+
 
 
 .footer {
@@ -337,17 +438,43 @@ a:hover::before {
                 font-size: 14px;
             }
         }
+
         .change_themes .button_change_themes {
             width: 25px;
             height: 25px;
             background-size: 20px;
         }
     }
+
     .big__card {
         .cardElm {
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            
+            p {
+                width: 60vw;
+            }
+        }
+    }
+
+    .main__page {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .big__text {
+            min-width: 100vw;
+            text-align: center;
+        }
+    }
+
+    .aboutUs {
+        flex-direction: column;
+        gap: 30px;
+
+        .weText {
+            width: 80vw;
         }
     }
 

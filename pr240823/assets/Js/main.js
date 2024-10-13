@@ -43,6 +43,8 @@ const headerElm = document.querySelector('.header');
 const footerElm = document.querySelector('.footer')
 // Ловим тег main
 const mainElm = document.querySelector('.mainless')
+const elm = document.querySelectorAll('.elm')
+
 
 // Ловим все картинки в карточках
 const imgElm = mainElm.querySelectorAll('.img-card');
@@ -82,7 +84,11 @@ imgElm.forEach(el => {
         // Для тега header и mainless задаем свойства
         headerElm.style.filter = 'brightness(10%)'
         footerElm.style.filter = 'brightness(10%)'
-        mainElm.style.display = 'none'
+        elm.forEach(el => {
+            el.style.display = 'none'
+        })
+
+
 
         const bigCardElm = document.body.querySelector('.big__card');
 
@@ -93,10 +99,13 @@ imgElm.forEach(el => {
         ElElm.addEventListener('click', (e) => {
             headerElm.style.filter = 'brightness(100%)'
             footerElm.style.filter = 'brightness(100%)'
-                   mainElm.style.display = 'flex'
-           
+            elm.forEach(el => {
+                el.style.display = 'flex'
+            })
+
             document.body.removeChild(bigCardElm)
         })
     })
 
 })
+
