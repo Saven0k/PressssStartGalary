@@ -25,6 +25,13 @@ h1 {
     color: #fff;
 }
 
+p::selection,
+h1::selection {
+    color: #000;
+    background-color: rgb(240, 100, 221);
+    ;
+}
+
 .footer,
 .header {
     background: #000;
@@ -99,7 +106,7 @@ a:hover::before {
         background-color: #000;
     }
 
-    .header .change_themes .button_change_themes {
+    .header .main .change_themes .button_change_themes {
         background: rgb(25, 32, 36);
         background-image: url("../images/moon.png");
         background-size: 25px;
@@ -128,12 +135,15 @@ a:hover::before {
     }
 
     .big__card .cardElm {
-
+        background-color: #fff;
+        height: 100%;
         p {
             color: #000;
         }
     }
-    .aboutUs {
+
+    .aboutUs,
+    .photo_q {
         color: #000;
     }
 }
@@ -287,6 +297,7 @@ a:hover::before {
             width: 30vw;
             border-radius: 25px;
             min-width: 20vw;
+            max-height: 80vh;
         }
 
         p {
@@ -326,7 +337,7 @@ a:hover::before {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    
+
     .abutText {
         font-size: 50px;
         font-weight: 900;
@@ -352,11 +363,12 @@ a:hover::before {
         }
 
         .red_text {
-            color:red;
+            color: red;
             font-size: 18px;
             font-weight: 600;
-            
+
         }
+
         .bold_text {
             padding-top: 30px;
             font-style: italic;
@@ -364,7 +376,36 @@ a:hover::before {
     }
 }
 
+.photo_q {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .bold_big_text {
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+    .disc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 50vw;
+    }
+
+    .color_text {
+        color: red;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 2px;
+    }
+}
 
 .footer {
     padding-bottom: 50px;
@@ -451,9 +492,13 @@ a:hover::before {
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            
+
             p {
                 width: 60vw;
+            }
+
+            .imgElm {
+                width: 50vw;
             }
         }
     }
@@ -478,6 +523,11 @@ a:hover::before {
         }
     }
 
+    .photo_q {
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .footer .box-text {
         flex-direction: column;
         justify-content: center;
@@ -490,4 +540,17 @@ a:hover::before {
     }
 
 
+}
+
+.element-animation {
+    top: 20px;
+    opacity: 0;
+    position: relative;
+}
+
+.element-animation.element-show {
+    position: relative;
+    top: -20px;
+    opacity: 1;
+    transition-duration: 1.7s;
 }
